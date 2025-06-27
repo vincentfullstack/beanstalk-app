@@ -33,7 +33,7 @@ const History = mongoose.model("History", historySchema);
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("Weather backend is running");
+  res.send("Weather backend is running!");
 });
 
 app.post("/history", async (req, res) => {
